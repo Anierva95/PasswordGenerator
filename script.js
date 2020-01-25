@@ -29,7 +29,7 @@ function generatePassword() {
    alert('Password length must be between 8 and 124 characters. Please try again.');
  }
 
-
+  }
   // Confirm prompts for each password "condition"
   wantsSpecial = confirm("Please click 'confirm' if you wish to include SPECIAL characters.");
   wantsNumeric = confirm("Please click 'confirm' if you wish to include NUMERIC characters.");
@@ -41,7 +41,7 @@ function generatePassword() {
     alert('Error: No character type selected. Please try again.');
     lengthPassword = 0;
   }
-}
+  
   // Establish strings of different types of characters for password generator
   specialChar = "!~#$%^&*()_+{}|:;.";
   numericChar = "1234567890";
