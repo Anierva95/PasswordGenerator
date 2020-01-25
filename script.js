@@ -31,10 +31,10 @@ function generatePassword() {
 
   }
   // Confirm prompts for each password "condition"
-  wantsSpecial = confirm("Please click 'confirm' if you wish to include SPECIAL characters.");
-  wantsNumeric = confirm("Please click 'confirm' if you wish to include NUMERIC characters.");
-  wantsLower = confirm("Please click 'confirm' if you wish to include LOWERCASE characters.");
-  wantsUpper = confirm("Please click 'confirm' if you wish to include UPPERCASE characters.");
+  wantsSpecial = confirm("Please click 'OK' if you wish to include SPECIAL characters.");
+  wantsNumeric = confirm("Please click 'OK' if you wish to include NUMERIC characters.");
+  wantsLower = confirm("Please click 'OK' if you wish to include LOWERCASE characters.");
+  wantsUpper = confirm("Please click 'OK' if you wish to include UPPERCASE characters.");
 
   // If statement to redirect user to beginning if they confirm no characters
   if (!wantsLower && !wantsNumeric && !wantsSpecial && !wantsUpper) {
